@@ -1,0 +1,913 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color:rgb(240, 240, 240);
+    
+}
+/* .full-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+    /* 
+@media only screen and (max-width: 600px){
+    img{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 400px){
+    {
+     text{   width: 350px;
+    }
+    } */
+.link{
+    background-color: white;
+    box-shadow: whitesmoke;
+}
+.logo{
+    background-color: whitesmoke;
+}
+.dropdown{
+    width: 1em;
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    display: inline-block;
+}
+.dropdown-services{
+    width: 1em;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    display: inline-block;
+}
+.dropdown-fp{
+    width: 1em;
+    position: absolute;
+    top: 20px;
+    left: 115px;
+    display: inline-block;
+}
+.dropdown-donation{
+    width: 1em;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    display: inline-block;
+} 
+.text{
+    background-color: rgba(11, 78, 221, 0.774);
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+div.paragraph{
+    width: 900px;
+    text-align: center;
+    margin: 75px auto;
+    color: lightslategray;
+
+}
+#green{
+    color: rgba(28, 28, 221, 0.842);
+}
+#blue{
+    color: rgb(10, 83, 10);
+}
+div.counting{
+    background-color: rgb(35, 82, 223);
+    width: 1260px ;
+    height: 280px;
+}
+
+/* option.dropdown-content{
+    display: none;
+    background-color: green;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1; 
+}  */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.full-div{
+    height: 20px;
+    margin: 0em 0em 0em 0em;
+}
+li{
+    display: inline-block;
+    float: left;
+    text-align: right;
+    text-decoration: none;
+    padding: 40px 5px 5px 5px;
+    position: relative;
+    left: 400px;
+    padding: 5px;
+}
+ul{
+    background-color: white;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    border-style: outset;
+}
+.social-media{
+    background-color: royalblue;
+    width: auto;
+    margin-top: 0%;
+}
+.social-para{
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    margin-left: 150px;
+}
+button{
+    
+    position: absolute;
+    top: 16px;
+    left: 1000px;
+    display: inline;
+    text-align: center;
+    height: 30px;
+    font-size: 11px;
+
+}
+button.smit{
+    position: absolute;
+    left: 1100px;
+}
+button.uk{
+    position: absolute;
+    left: 910px;
+}
+.fa{
+    padding: 10px;
+    font-size: 10px;
+    width: auto;
+    text-align: left;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.6;
+    color: navy;
+}
+.fa-facebook{
+    background-color: royalblue;
+    color: black;
+}
+.fa-twitter{
+    background-color: royalblue;
+    color: black;
+}
+.fa-instagram{
+    background-color: royalblue;
+    color: black;
+}
+.fa-youtube{
+    background-color: royalblue;
+    color: black;
+}
+.fa-whatsapp{
+    background-color: royalblue;
+    color: black;
+}
+img.logo{
+    position: absolute;
+    top: 60px;
+}
+img.favicon{
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 40px;
+}
+p.dash{
+    position: absolute;
+    top: 780px;
+    left: 45%;
+
+}
+p.dash1{
+    position: absolute;
+    right: 41.5%;
+    top: 780px;
+    
+}
+.date{
+    color: rgba(8, 255, 8, 0.815);
+}
+img.dastarkhwan{
+    position: absolute;
+    top: 225%;
+    left: 155px;
+}
+h1.count-dastarkhwan{
+    position: absolute;
+    top: 228%;
+    left: 80px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.counting{
+    position: absolute;
+    top: 1350px;
+
+}
+.count-dastarkhwan-daily{
+    position: absolute;
+    top: 242%;
+    left: 50px;
+    color: white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.monthly{
+    color: rgba(8, 255, 8, 0.815);
+    font-size: 22px;
+}
+img.adoption{
+    position: absolute;
+    top: 225%;
+    left: 450px;
+}
+h1.count-adoption{
+    position: absolute;
+    top: 228%;
+    left: 420px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.family-adoption{
+    position: absolute;
+    top: 241.8%;
+    left: 380px;
+    color: white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img.medical{
+    position: absolute;
+    top: 225%;
+    left: 750px;
+}
+.medical-monthly{
+    position: absolute;
+    top: 242%;
+    left: 699px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+h1.medi{
+    
+    position: absolute;
+    top: 228%;
+    left: 699px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+img.education{
+    position: absolute;
+    top: 225%;
+    right: 185px;
+}
+h1.count-education{
+    position: absolute;
+    top: 228%;
+    right: 120px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.edu{
+    position: absolute;
+    top: 242%;
+    right: 100px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+.work{
+    position: absolute;
+    top: 269%;
+    color: royalblue;
+    right: 425px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.doing{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(11, 133, 11, 0.856);
+}
+
+img.favicon2{
+    position: absolute;
+    top: 282%;
+    right: 48%;
+    
+}
+p.dash2{
+    position: absolute;
+    top: 1765px;
+    left: 43%;
+
+}
+p.dash3{
+    position: absolute;
+    right: 43%;
+    top: 1765px;
+    
+}
+div.online{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  1920px;
+    left: 45px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+div.online1{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  1920px;
+    left: 450px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+div.online2{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  1920px;
+    right: 40px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+div.online3{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  2140px;
+    right: 40px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+
+div.online4{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  2140px;
+    left: 450px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+div.online5{
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:  2140px;
+    left: 45px;
+    box-shadow: 8px 8px 8px 8px #d1d1d1
+}
+
+img.onlinesadqahimg{
+    position: absolute;
+    top: 1940px;
+    left: 180px;
+}
+img.welfare-img{
+    position: absolute;
+    top: 1940px;
+    left: 585px;
+}
+img.medical-img{
+    position: absolute;
+    top: 1940px;
+    right: 190px;
+}
+img.dastarkhwan-img{
+    position: absolute;
+    top: 2158px;
+    left: 180px;
+}
+img.img-ro-plant{
+    position: absolute;
+    top: 2163px;
+    left: 580px;
+}
+img.education-img{
+    position: absolute;
+    top: 2163px;
+    right: 190px;
+}
+
+h3.head1{
+    position: absolute;
+    top: 2010px;
+    left: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+h3.head2{
+    position: absolute;
+    top: 2010px;
+    left: 569px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+h3.head3{
+    position: absolute;
+    top: 2010px;
+    right: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+h3.head4{
+    position: absolute;
+    top: 2230px;
+    left: 135px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+h3.head5{
+    position: absolute;
+    top: 2230px;
+    left: 565px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+h3.head6{
+    position: absolute;
+    top: 2230px;
+    right: 166px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: rgba(7, 7, 253, 0.74);
+
+}
+div.mission{
+    width: 1250px;
+    height: 500px;
+    background-color:rgb(240, 240, 240); 
+    border: 2px solid rgb(240, 240, 240) ;
+    box-shadow: silver;
+    position: absolute;
+    top: 2400px;
+}
+
+h1.upcoming-projects{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgba(7, 7, 253, 0.74)
+}
+.dash-project{
+    position: absolute;
+    top: 75px;
+    font-weight: bold;
+    left: 50px;
+    color: green;
+}
+div.project1{
+    box-shadow: 1px solid rgba(85, 81, 81, 0.144);
+    background-color: rgba(190, 174, 174, 0.151);
+    position: absolute;
+    top: 2550px;
+    left: 60px;
+    width: 350px;
+    height: 75px;
+}
+
+div.project2{
+    box-shadow: 1px solid rgba(85, 81, 81, 0.144);
+    background-color: rgba(190, 174, 174, 0.151);
+    position: absolute;
+    top: 2550px;
+    left: 430px;
+    width: 350px;
+    height: 75px;
+}
+
+div.project3{
+    box-shadow: 1px solid rgba(85, 81, 81, 0.144);
+    background-color: rgba(190, 174, 174, 0.151);
+    position: absolute;
+    top: 2645px;
+    left: 60px;
+    width: 350px;
+    height: 75px;
+}
+
+div.project4{
+    box-shadow: 1px solid rgba(85, 81, 81, 0.144);
+    background-color: rgba(190, 174, 174, 0.151);
+    position: absolute;
+    top: 2645px;
+    left: 430px;
+    width: 350px;
+    height: 75px;
+}
+img.hepatitis-img{
+    position: absolute;
+    top: 2569px;
+    left: 80px;
+}
+h3.hepatitis{
+    position: absolute;
+    top: 2555px;
+    left: 150px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(7, 7, 253, 0.74)
+}
+img.housing-img{
+    position: absolute;
+    top: 2569px;
+    left: 460px;
+}
+h3.housing{
+    position: absolute;
+    top: 2556px;
+    left: 525px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(7, 7, 253, 0.74)
+}
+img.IT-img{
+    position: absolute;
+    top: 2662px;
+    left: 80px;
+
+}
+h3.IT{
+    position: absolute;
+    top: 2650px;
+    left: 150px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(7, 7, 253, 0.74)
+}
+img.tharparkar-img{
+    position: absolute;
+    top: 2662px;
+    left: 460px;
+}
+h3.tharparkar{
+    
+    position: absolute;
+    top: 2650px;
+    left: 525px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(7, 7, 253, 0.74)
+}
+
+h2.upcoming-events{
+    position: absolute;
+    top: 2440px;
+    right: 210px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgba(7, 7, 253, 0.74)
+}
+.dash-events{
+    position: absolute;
+    top: 2480px;
+    font-weight: bold;
+    right: 69px;
+    color: green;
+}
+.long-dash{
+    color: lightgray;
+    font-weight: lighter;
+}
+/* p.upcoming-slide{
+    position: absolute;
+    top: 2550px;
+    right: 300px;
+    color: lime;
+    width: 150px;
+} */
+.events-slider{
+    
+    position: absolute;
+    top: 2550px;
+    right: 200px;
+    color: lightslategray;
+    width: 250px;
+    height: 200px;
+    overflow-wrap: normal;
+    
+}
+.more-details{
+    color:  rgba(7, 7, 253, 0.74);
+}
+
+h1.image{
+    position: absolute;
+    top: 2790px;
+    left: 440px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(7, 7, 253, 0.74)
+}
+.gallery{
+    color: rgba(16, 133, 16, 0.781);
+}
+img.favicon-last{
+    position: absolute;
+    top: 2880px;
+    left: 550px;
+}
+.dash-last1{
+    
+    position: absolute;
+    top: 2900px;
+    left: 490px;
+    font-weight: bold;
+    color: green;
+}
+.dash-last2{
+    
+    position: absolute;
+    top: 2900px;
+    right: 616px;
+    font-weight: bold;
+    color: green
+}
+div.same-WH{
+    background-color: whitesmoke;
+}
+img.rashan{
+    position: absolute;
+    top: 2965px;
+    left: 90px;
+    width: 210px;
+    height: 140px;
+}
+img.pakwan{
+    position: absolute;
+    top: 2965px;
+    left: 305px;
+    width: 210px;
+    height: 140px;
+
+}
+img.hazrat{
+    position: absolute;
+    top: 2965px;
+    left: 520px;
+    width: 210px;
+    height: 140px;
+
+}
+img.rashan2{
+    position: absolute;
+    top: 2965px;
+    right: 318px;
+    width: 210px;
+    height: 140px;
+}
+img.hazrat2{
+    
+    position: absolute;
+    top: 2965px;
+    right: 103px;
+    width: 210px;
+    height: 140px;
+}
+div.last-div{
+    position: absolute;
+    top :3250px;
+    width: 1300px;
+    background-color: rgb(39, 39, 56);
+    color: lightgray;
+    
+}
+p.last-p-1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 14px;
+}
+p.contact-numbers{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.UAN{
+    margin-left: 55px;
+}/* 
+.fa fa-facebook1{
+    background-color:blue;
+    position: absolute;
+    top: 2800px;
+    right:30px;
+    width: 200px;
+    height: 100px;
+} */
+.useful{
+    position: absolute;
+    top: 60px;
+    right:680px;
+    color: white;
+}
+.dash-links{
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+    right: 405px;
+    color: rgba(115, 202, 16, 0.863);
+}
+.long-dash1{
+    color: gray;
+    font-weight: 1;
+}
+.connect{
+    position: absolute;
+    top: 62px;
+    right:280px;
+    color: white;
+}/* 
+.fa-envelope-o{
+    position: absolute;
+    top: 3521px;
+    left: 75px;
+    color:  rgba(115, 202, 16, 0.863);
+}
+.fa-phone{
+    position: absolute;
+    top: 3490px;
+    left: 75px;
+    color:  rgba(115, 202, 16, 0.863);
+}
+ul.phone{
+    position: absolute;
+    top: 3400px;
+    left: 75px;
+    list-style-type: none;
+    color:  rgba(115, 202, 16, 0.863);
+/* }
+.fa-facebook-official{
+    position: absolute;
+    top : 3360px;
+    right: 320px;
+    background-color:rgb(9, 89, 152); 
+     color:  rgb(9, 89, 152); 
+    color: white;
+    border-radius: 40px;
+}
+/* .fa-twitter-square{
+    position: absolute;
+top : 3360px;
+right: 280px;
+background-color:rgb( 9, 89, 152); 
+color:  rgb(9, 89, 152); 
+color: white;
+border-radius: 40px;
+} */
+img.fb{
+    position: absolute;
+    top : 3360px;
+    right: 325px;
+}
+img.twi{
+ 
+    position: absolute;
+    top : 3360px;
+    right: 295px;   
+}
+img.insta{
+    position: absolute;
+    top : 3360px;
+    right: 266px;
+}
+img.youtube{
+    position: absolute;
+    top : 3360px;
+    right: 238px;
+}
+img.call{
+    position: absolute;
+    top : 3400px;
+    left: 80px;
+    color: white;
+    background-color: white;
+}
+img.call1{
+    position: absolute;
+    top : 3433px;
+    left: 80px;
+    color: white;
+    background-color: white;
+}
+img.call2{
+    position: absolute;
+    top : 3465px;
+    left: 80px;
+    color: white;
+    background-color: white;
+}
+img.call3{
+    position: absolute;
+    top : 3495px;
+    left: 80px;
+    color: white;
+    background-color: white;
+}
+img.mail{
+    position: absolute;
+    top : 3528px;
+    left: 80px;
+    color: white;
+    background-color: white;
+}
+img.globe{
+    position: absolute;
+    top : 3402px;
+    left: 255px;
+    color: white;
+    background-color: white;
+}
+div.footer{
+    position: absolute;
+    top: 3560px;
+    width: 1300px;
+    height: 40px;
+    background-color:  rgba(7, 7, 253, 0.74);
+}
+p.copyright{
+    color: whitesmoke;
+    position: absolute;
+    left: 69px;
+    font-size: 12px;
+    padding-top: 6px;
+}
+img.go-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: rgba(158, 158, 57, 0.151);
+    height: 50px;
+    width: 50px;
+}
